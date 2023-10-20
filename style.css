@@ -1,0 +1,114 @@
+* {
+    padding: 3rem;
+}
+.container {
+    margin: justify;
+    background-color: #fff;
+    box-sizing: unset;
+    border: solid black;
+    padding: auto;
+    box-shadow: black;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "block1 block2 block3 block4"
+    "block5 block6 block7 block8"
+    "block9 block10 block11 block12"
+    "block13 block14 block15 block16"
+    "block17 block18 block19 block20";
+    grid-gap: 10px;
+}
+
+input[type="text"] {
+    grid-column: span 3;
+    grid-area: ;
+    width: 97%;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 24px;
+}
+#btn1 {
+    grid-area: block5;
+    background-color: blue;
+    font-weight: 800;
+}
+#btn2 {
+    grid-area: block6;
+    background-color: blue;
+    font-weight: 800;
+}
+#btn3 {
+    grid-area: block7;
+    background-color: blue;
+    font-weight: 800;
+}
+#btnMultiply {
+    grid-area: block8;
+    background-color: blue;
+    font-weight: 800;
+}
+#btn4 {
+    grid-area: block9;
+    background-color: blue;
+    font-weight: 800;
+}
+#btn5 {
+    grid-area: block10;
+    background-color: blue;
+    font-weight: 800;
+}
+#btn6 {
+    grid-area: block11;
+    background-color: blue;
+    font-weight: 800;
+}
+#btnAdd {
+    grid-area: block12;
+    background-color: blue;
+    font-weight: 800;
+}
+#btn7 {
+    grid-area: block13;
+    background-color: blue;
+    font-weight: 800;
+}
+#btn8 {
+    grid-area: block14;
+    background-color: blue;
+    font-weight: 800;
+}
+#btn9 {
+    grid-area: block15;
+    background-color: blue;
+    font-weight: 800;
+}
+#btnSubtract {
+    grid-area: block16;
+    background-color: blue;
+    font-weight: 800;
+}
+#btnClear {
+    grid-area: block18;
+    font-weight: 800;
+}
+#btnEqual {
+    grid-area: block20;
+    background-color: blue;
+    font-weight: 800;
+}
+#btnDVD {
+    grid-area: block19;
+    background-color: blue;
+    font-weight: 800;
+}
+#btnEXPO {
+    grid-area: block17;
+    font-weight: 800;
+}
+#delete {
+        grid-area: block4;
+        font-weight: 800;
+        background-color: red;
+}

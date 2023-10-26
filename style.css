@@ -1,113 +1,163 @@
-* {
-    padding: 3rem;
-}
-.container {
-    margin: justify;
-    background-color: #fff;
-    box-sizing: unset;
-    border: solid black;
-    padding: auto;
-    box-shadow: black;
-    text-align: center;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-    "block1 block2 block3 block4"
-    "block5 block6 block7 block8"
-    "block9 block10 block11 block12"
-    "block13 block14 block15 block16"
-    "block17 block18 block19 block20";
-    grid-gap: 10px;
-}
-
 input[type="text"] {
-    grid-column: span 3;
-    width: 97%;
-    margin-bottom: 10px;
-    padding: 15px;
-    font-size: 24px;
+    width: 120px;
+    height: 40px;
 }
 #btn1 {
-    grid-area: block5;
     background-color: blue;
     font-weight: 800;
+    width: 40px;
+    height: 40px;
+}
+#btn1:hover {
+    background-color: aqua;
 }
 #btn2 {
-    grid-area: block6;
     background-color: blue;
     font-weight: 800;
+    width: 40px;
+    height: 40px;
 }
+#btn2:hover {
+    background-color: aqua;
+}
+
 #btn3 {
-    grid-area: block7;
     background-color: blue;
     font-weight: 800;
+    width: 40px;
+    height: 40px;
+}
+#btn3:hover {
+    background-color: aqua;
 }
 #btnMultiply {
-    grid-area: block8;
     background-color: blue;
     font-weight: 800;
+    width: 40px;
+    height: 40px;
+}
+#btnMultiply:hover {
+    background-color: aqua;
 }
 #btn4 {
-    grid-area: block9;
     background-color: blue;
     font-weight: 800;
+    width: 40px;
+    height: 40px;
+}
+#btn4:hover {
+    background-color: aqua;
 }
 #btn5 {
-    grid-area: block10;
     background-color: blue;
     font-weight: 800;
+    width: 40px;
+    height: 40px;
+}
+#btn5:hover {
+    background-color: aqua;
 }
 #btn6 {
-    grid-area: block11;
     background-color: blue;
     font-weight: 800;
+    width: 40px;
+    height: 40px;
+}
+#btn6:hover {
+    background-color: aqua;
 }
 #btnAdd {
-    grid-area: block12;
     background-color: blue;
     font-weight: 800;
+    width: 40px;
+    height: 40px;
+}
+#btnAdd:hover {
+    background-color: aqua;
 }
 #btn7 {
-    grid-area: block13;
     background-color: blue;
     font-weight: 800;
+    width: 40px;
+    height: 40px;
+}
+#btn7:hover {
+    background-color: aqua;
 }
 #btn8 {
-    grid-area: block14;
     background-color: blue;
     font-weight: 800;
+    width: 40px;
+    height: 40px;
+}
+#btn8:hover {
+    background-color: aqua;
 }
 #btn9 {
-    grid-area: block15;
     background-color: blue;
     font-weight: 800;
+    width: 40px;
+    height: 40px;
+}
+#btn9:hover {
+    background-color: aqua;
 }
 #btnSubtract {
-    grid-area: block16;
     background-color: blue;
     font-weight: 800;
+    width: 40px;
+    height: 40px;
+}
+#btnSubtract:hover {
+    background-color: aqua;
 }
 #btnClear {
-    grid-area: block18;
     font-weight: 800;
+    width: 40px;
+    height: 40px;
+}
+#btnClear:hover {
+    background-color: aqua;
 }
 #btnEqual {
-    grid-area: block20;
     background-color: blue;
     font-weight: 800;
+    width: 40px;
+    height: 40px;
+}
+#btnEqual:hover {
+    background-color: aqua;
 }
 #btnDVD {
-    grid-area: block19;
     background-color: blue;
     font-weight: 800;
+    width: 40px;
+    height: 40px;
+}
+#btnDVD:hover {
+    background-color: aqua;
 }
 #btnZERO {
-    grid-area: block17;
     font-weight: 800;
+    width: 40px;
+    height: 40px;
+}
+#btnZERO:hover {
+    background-color: aqua;
 }
 #delete {
-        grid-area: block4;
         font-weight: 800;
         background-color: red;
+        width: 40px;
+        height: 75px;
+}
+#delete:hover {
+    background-color: aqua;
+}
+.calculator {
+    border: solid cadetblue;
+    width: 180px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 20rem;
 }

@@ -46,7 +46,9 @@ document.addEventListener('DOMContentLoaded', function () {
 
     document.getElementById('btnClear').addEventListener('click', clearInput);
 
-    document.getElementById('delete').addEventListener('click', deleteLast);
+    document.getElementById('decimal').addEventListener('click', function (){
+        appendToInput(',')
+    }
 
     document.getElementById('btnEqual').addEventListener('click', calculate);
 });

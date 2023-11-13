@@ -8,28 +8,30 @@
 </head>
 <body>
 <div class="calculator">
-    <input type="text" id="space" placeholder=""><button id="delete">DEL</button>
+    <input type="text" id="space" placeholder="" display><button id="delete" data-delete>DEL</button>
         <br>
-        <div><button id="btn1">7</button>
-        <button id="btn2">8</button>
-        <button id="btn3">9</button>
-        <button id="btnMultiply">*</button>
+        <div><button id="btn1" data-number="">7</button>
+        <button id="btn2" data-number="">8</button>
+        <button id="btn3" data-number="">9</button>
+        <button id="btnMultiply" data-multiply>*</button>
         </div>
-        <div><button id="btn4">4</button>
-        <button id="btn5">5</button>
-        <button id="btn6">6</button>
-        <button id="btnAdd">+</button>
+        <div><button id="btn4" data-number="">4</button>
+        <button id="btn5" data-number="">5</button>
+        <button id="btn6" data-number="">6</button>
+        <button id="btnAdd" data-add>+</button>
         </div>
-        <div><button id="btn7">1</button>
-        <button id="btn8">2</button>
-        <button id="btn9">3</button>
-        <button id="btnSubtract">-</button>
+        <div><button id="btn7" data-number="">1</button>
+        <button id="btn8" data-number="">2</button>
+        <button id="btn9" data-number="">3</button>
+        <button id="btnSubtract" data-subtract>-</button>
         </div>
-        <button id="btnZERO">0</button>
-        <button id="btnClear">AC</button>
-        <button id="btnEqual">=</button>
-        <button id="btnDVD">/</button>
+        <button id="btnZERO" data-number="">0</button>
+        <button id="btnClear" data-clear>AC</button>
+        <button id="btnEqual" data-cal>=</button>
+        <button id="btnDVD" data-div>/</button>
 </div>
     
+
+<script src="index.js"></script>
 </body>
 </html>

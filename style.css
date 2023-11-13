@@ -112,9 +112,11 @@ input[type="text"] {
     background-color: aqua;
 }
 #btnClear {
+    background-color: red;
     font-weight: 800;
     width: 40px;
     height: 40px;
+    margin-left: 5px;
 }
 #btnClear:hover {
     background-color: aqua;
@@ -147,9 +149,9 @@ input[type="text"] {
 }
 #delete {
         font-weight: 800;
-        background-color: red;
+        background-color: blue;
         width: 40px;
-        height: 75px;
+        height: 40px;
 }
 #delete:hover {
     background-color: aqua;
@@ -160,4 +162,9 @@ input[type="text"] {
     box-sizing: border-box;
     margin: auto;
     margin-top: 20rem;
+}
+button {
+    border-radius: 75%;
+    border: solid black;
+    margin-bottom: 2px;
 }
